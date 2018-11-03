@@ -3,11 +3,15 @@ package com.zackarymoore;
 public class Main {
 
     public static void main(String[] args) {
-        // a mile is equal to 1.609344 kilometres
-        double kilometres = (100 * 1.609344);
-        int highScore = 50;
-        if (highScore == 50) {
-            System.out.println("This is an expression");
+        // items under the underscore characters are part of an expression
+        //  ___________
+        int score = 100;
+        //  __________
+        if (score > 99) {
+            //                 _________________________
+            System.out.println("You got the high score!");
+          //_________
+            score = 0;
         }
     }
 }
